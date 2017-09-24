@@ -9,36 +9,44 @@ namespace BingSearchTests
     public class BingSearchTests
     {
         [Test]
-        [TestCase("Virat Kohli", Category = "Edge")]
-        [TestCase("Amy Schumer", Category = "Edge")]
-        [TestCase("Dalai Lama", Category = "Edge")]
-        [TestCase("Mark Wahlberg", Category = "Edge")]
-        [TestCase("Masaharu Morimoto", Category = "Edge")]
-        [TestCase("Elvis", Category = "Edge")]
-        [TestCase("Will I Am", Category = "Edge")]
-        [TestCase("Jennifer Lawrence", Category = "Edge")]
-        [TestCase("Tom Brady", Category = "Edge")]
-        [TestCase("Phil Collins", Category = "Edge")]
-        [TestCase("India", Category = "Edge")]
-        [TestCase("Oregon", Category = "Edge")]
-        [TestCase("Cannon Beach", Category = "Edge")]
-        [TestCase("Peter Parker", Category = "Edge")]
-        [TestCase("Wolverine", Category = "Edge")]
-        [TestCase("Jennifer Lopez", Category = "Edge")]
-        [TestCase("Catalina", Category = "Edge")]
-        [TestCase("Tamil Nadu", Category = "Edge")]
-        [TestCase("Wombat", Category = "Edge")]
-        [TestCase("Jennifer Rodriguez", Category = "Edge")]
+        [TestCase("Dhoni", Category = "Edge")]
+        [TestCase("Amy Adams", Category = "Edge")]
+        [TestCase("Rinposhe Lama", Category = "Edge")]
+        [TestCase("Mark Martin", Category = "Edge")]
+        [TestCase("Bobby Flay", Category = "Edge")]
+        [TestCase("Willard Scott", Category = "Edge")]
+        [TestCase("William Penn", Category = "Edge")]
+        [TestCase("Blake Lively", Category = "Edge")]
+        [TestCase("Peyton Manning", Category = "Edge")]
+        [TestCase("Joe Rogan", Category = "Edge")]
         [TestCase("Sri Lanka", Category = "Edge")]
         [TestCase("Washington", Category = "Edge")]
-        [TestCase("Puyallup", Category = "Edge")]
-        [TestCase("Bend Oregon", Category = "Edge")]
-        [TestCase("Bethany", Category = "Edge")]
-        [TestCase("Mark Anthony", Category = "Edge")]
-        [TestCase("Octavian", Category = "Edge")]
-        [TestCase("Cleopatra", Category = "Edge")]
-        [TestCase("Wicked Cupcakes", Category = "Edge")]
-        [TestCase("Jennifer Jones", Category = "Edge")]
+        [TestCase("Long Beach", Category = "Edge")]
+        [TestCase("Peter Lugers", Category = "Edge")]
+        [TestCase("Walter Scott", Category = "Edge")]
+        [TestCase("King George", Category = "Edge")]
+        [TestCase("Florida Keys", Category = "Edge")]
+        [TestCase("Karnataka", Category = "Edge")]
+        [TestCase("Warriors", Category = "Edge")]
+        [TestCase("Jaylen Smith", Category = "Edge")]
+        [TestCase("Home Depot", Category = "Edge")]
+        [TestCase("Banfield Pet Hospital", Category = "Edge")]
+        [TestCase("Pullman", Category = "Edge")]
+        [TestCase("Hood River Oregon", Category = "Edge")]
+        [TestCase("Bart Simpson", Category = "Edge")]
+        [TestCase("Mark Spitz", Category = "Edge")]
+        [TestCase("Hadrian", Category = "Edge")]
+        [TestCase("Clytemnestra", Category = "Edge")]
+        [TestCase("Wicked Witch of the West", Category = "Edge")]
+        [TestCase("Julie Newmar", Category = "Edge")]
+        [TestCase("Trajan", Category = "Edge")]
+        [TestCase("Constantine", Category = "Edge")]
+        [TestCase("Ellen", Category = "Edge")]
+        [TestCase("Justin Bieber", Category = "Edge")]
+        [TestCase("Elephant", Category = "Edge")]
+        [TestCase("Giraffe", Category = "Edge")]
+
+
         public void CanDoABingSearch(string searchTerm)
         {
             _bingSearchPom.BingSearchBox.Clear();
@@ -62,7 +70,7 @@ namespace BingSearchTests
             Driver.driver.Dispose();
         }
 
-        private int _timeout = 2000;
+        private int _timeout = 4000;
         readonly BingSearchCommands _bingSearchCommands = new BingSearchCommands();
         readonly BingSearchPom _bingSearchPom = new BingSearchPom();
 

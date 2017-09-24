@@ -28,6 +28,12 @@ namespace BingSearchTests
         [TestCase("Tamil Nadu", Category = "Chrome")]
         [TestCase("Wombat", Category = "Chrome")]
         [TestCase("Jennifer Rodriguez", Category = "Chrome")]
+        [TestCase("Emma Stone", Category = "Chrome")]
+        [TestCase("Henry Cavill", Category = "Chrome")]
+        [TestCase("Widget", Category = "Chrome")]
+        [TestCase("Marcus Mariota", Category = "Chrome")]
+        [TestCase("Gary Anderson", Category = "Chrome")]
+        [TestCase("Brian Cheesman", Category = "Chrome")]
 
         public void CanDoAMobileBingSearch(string searchTerm)
         {
@@ -53,7 +59,7 @@ namespace BingSearchTests
             Driver.driver.Dispose();
         }
 
-        private int _timeout = 1500;
+        private int _timeout = 4000;
         readonly BingSearchCommands _bingSearchCommands = new BingSearchCommands();
         readonly BingSearchPom _bingSearchPom = new BingSearchPom();
 
