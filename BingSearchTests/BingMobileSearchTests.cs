@@ -59,7 +59,7 @@ namespace BingSearchTests
             Driver.driver.Dispose();
         }
 
-        private int _timeout = 4000;
+        private int _timeout = 2000;
         readonly BingSearchCommands _bingSearchCommands = new BingSearchCommands();
         readonly BingSearchPom _bingSearchPom = new BingSearchPom();
 
