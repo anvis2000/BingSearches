@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace BingSearches
 {
+	//Selenium commands to navigate Bing Searches
     public class BingSearchCommands
     {
         public void GoToBingPage()
