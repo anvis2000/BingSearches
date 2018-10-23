@@ -5,6 +5,7 @@ namespace BingSearchTests
 {
     class BingHeadlessSearchTests
     {
+		//Tests run on PhantomJS
         [Test]
         [TestCase("Tintin", Category = "Headless")]
         [TestCase("Akshay Kumar", Category = "Headless")]
