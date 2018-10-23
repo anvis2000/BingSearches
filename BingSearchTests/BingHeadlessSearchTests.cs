@@ -6,11 +6,11 @@ namespace BingSearchTests
     class BingHeadlessSearchTests
     {
         [Test]
-        [TestCase("Sunil Gavaskar", Category = "Headless")]
+        [TestCase("Tintin", Category = "Headless")]
         [TestCase("Akshay Kumar", Category = "Headless")]
         [TestCase("Morgan Freeman", Category = "Headless")]
         [TestCase("Will Ferell", Category = "Headless")]
-        [TestCase("Cindy Lauper", Category = "Headless")]
+        [TestCase("Madonna", Category = "Headless")]
         [TestCase("Mick Jagger", Category = "Headless")]
         [TestCase("Paul Rodriguez", Category = "Headless")]
         [TestCase("Marco Rubio", Category = "Headless")]
