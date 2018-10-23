@@ -45,7 +45,7 @@ namespace BingSearches
                     chromeOptions.EnableMobileEmulation("iPhone 6");
                     driver = new ChromeDriver(chromeOptions);
                     break;
-
+				//Mobile emulation on Chrome
                 case BrowserType.ChromeHeadless:
                     ChromeOptions chromeOpt = new ChromeOptions();
                     chromeOpt.AddArguments("user-data-dir=C:/Users/Annamalai/AppData/Local/Google/Chrome/User Data");
